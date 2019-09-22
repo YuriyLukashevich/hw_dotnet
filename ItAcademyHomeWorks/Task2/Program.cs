@@ -42,12 +42,8 @@ namespace Task2
             decimal decimal1 = 23;
             Decimal decimal2 = 24;
             Console.WriteLine("decimal: {0} , {1}", decimal1.GetType(), decimal2.GetType());
-            object object1="12 dsf";
-            Object object2 =  true;
-            /*For object type, when output to the console,
-             * returns the data type, that was assigned to it,
-             * because reference type.
-             */
+            object object1= new object [2, 1];
+            Object object2 =  new Object [0];
             Console.WriteLine("object: {0} , {1}", object1.GetType(), object2.GetType());
             string string1 = "abc";
             String string2 = "cba";
