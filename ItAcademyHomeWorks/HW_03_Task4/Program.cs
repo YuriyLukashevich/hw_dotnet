@@ -28,8 +28,8 @@ namespace HW_03_Task4
             else
             {
                 Console.WriteLine("Какое число из какого необходимо вычесть, введите 1 или 2");
-                Console.WriteLine("0) Вычесть из первого числа второе");
-                Console.WriteLine("1) Вычесть из второго числа первое");
+                Console.WriteLine("1) Вычесть из первого числа второе");
+                Console.WriteLine("2) Вычесть из второго числа первое");
                 do
                 {
                     variant = Convert.ToInt32(Console.ReadLine());
