@@ -20,34 +20,42 @@ namespace HW_03_Task4
         public void InsertOperator()
         {
             Console.WriteLine("Введите, что необходимо сделать +(сложение) или -(вычитание)");
-            operator1 = Console.ReadLine();
-            if (operator1 == "+")
+            do
             {
-                sum1 = num1 + num2;
-            }
-            else
-            {
-                Console.WriteLine("Какое число из какого необходимо вычесть, введите 1 или 2");
-                Console.WriteLine("1) Вычесть из первого числа второе");
-                Console.WriteLine("2) Вычесть из второго числа первое");
-                do
+                operator1 = Console.ReadLine();
+                if (operator1 == "+")
                 {
-                    variant = Convert.ToInt32(Console.ReadLine());
-                    if (variant != 1 & variant != 2)
-                    {
-                        Console.WriteLine("Вы ввели неверный вариант, введите 1 или 2");
-                    }
+                    sum1 = num1 + num2;
                 }
-                while (variant != 1 & variant != 2);
-                if (variant == 1)
+                else if (operator1 == "-")
                 {
-                    sum1 = num1 - num2;
+                    Console.WriteLine("Какое число из какого необходимо вычесть, введите 1 или 2");
+                    Console.WriteLine("1) Вычесть из первого числа второе");
+                    Console.WriteLine("2) Вычесть из второго числа первое");
+                    do
+                    {
+                        variant = Convert.ToInt32(Console.ReadLine());
+                        if (variant != 1 & variant != 2)
+                        {
+                            Console.WriteLine("Вы ввели неверный вариант, введите 1 или 2");
+                        }
+                    }
+                    while (variant != 1 & variant != 2);
+                    if (variant == 1)
+                    {
+                        sum1 = num1 - num2;
+                    }
+                    else
+                    {
+                        sum1 = num2 - num1;
+                    }
                 }
                 else
                 {
-                    sum1 = num2 - num1;
-                }                
+                    Console.WriteLine("Вы ввели неверный символ. Введите + или -");
+                }
             }
+            while (operator1 != "+" & operator1 != "-");
         }
         public void Compare()
         {
