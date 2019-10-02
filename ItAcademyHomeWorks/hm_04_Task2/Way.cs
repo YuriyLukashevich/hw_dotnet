@@ -8,6 +8,7 @@ namespace hm_04_Task2
     {
         public string way;
         public int wayFromUnicode;
+
         public void ToWay()
         {
             Console.WriteLine("Введите направление движения: вверх(w), вниз(s), влево(a) или вправо(d)");

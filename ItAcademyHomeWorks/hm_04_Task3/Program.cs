@@ -11,7 +11,6 @@ namespace hm_04_Task3
             newDeposit.deposit = Convert.ToDouble(Console.ReadLine());
             newDeposit.IncreaseInAmount();
             newDeposit.DepositAmount();
-
         }
     }
 }

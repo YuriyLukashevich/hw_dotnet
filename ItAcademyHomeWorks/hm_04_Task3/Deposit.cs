@@ -27,6 +27,7 @@ namespace hm_04_Task3
                 }
             }
         }
+
         public void DepositAmount()
         {
             depositForAmount = deposit;

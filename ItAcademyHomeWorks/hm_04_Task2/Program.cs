@@ -28,9 +28,7 @@ namespace hm_04_Task2
                         break;
                 }
             }
-            while (variant=="default");
-            
-            
+            while (variant=="default");           
         }
     }
 }
