@@ -90,7 +90,7 @@ namespace hm_06_Task2
 
         static void SortArray(string word)
         {
-            Console.WriteLine(word);
+            Console.WriteLine($"исходная строка: {word}");
             string[] words = word.Split(' ');
             string numWord;
             for (int i = 0; i < words.Length - 1; i++)
@@ -106,7 +106,7 @@ namespace hm_06_Task2
                 }
             }
             Array.Reverse(words);
-            Console.WriteLine(String.Join(" ", words));
+            Console.WriteLine($"отсортированная строка: {String.Join(" ", words)}");
         }
     }
 }
