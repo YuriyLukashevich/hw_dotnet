@@ -27,9 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hm_06", "hm_06", "{8FDD67B5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_06_Task1", "hm_06_Task1\hm_06_Task1.csproj", "{69FAE15D-1D22-4534-B449-61609B97AB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_06_Task2", "hm_06_Task2\hm_06_Task2.csproj", "{1FFA283C-E5A8-46FD-8A0B-C8AF2DE3F6EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_06_Task2", "hm_06_Task2\hm_06_Task2.csproj", "{1FFA283C-E5A8-46FD-8A0B-C8AF2DE3F6EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_06_Task3_Optional", "hm_06_Task3_Optional\hm_06_Task3_Optional.csproj", "{41471E8B-CA0D-4700-B190-1B6B691AA5E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_06_Task3_Optional", "hm_06_Task3_Optional\hm_06_Task3_Optional.csproj", "{41471E8B-CA0D-4700-B190-1B6B691AA5E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
