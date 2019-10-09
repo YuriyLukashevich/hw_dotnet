@@ -26,7 +26,6 @@ namespace hm_05_Task2
                 int newElement = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Insert position of new array element, enter from 1 to 10:  ");
                 int position = Convert.ToInt32(Console.ReadLine());
-
                 foreach (int i in mass)
                 {
                     if (position == i)

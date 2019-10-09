@@ -37,7 +37,6 @@ namespace hm_05_Task3
             Console.WriteLine($"before reverse: {String.Join(", ", array1)}");
             Array.Reverse(array1);
             Console.WriteLine($"after reverse: {String.Join(", ", array1)}");
-
         }
 
         public static void Way4()
