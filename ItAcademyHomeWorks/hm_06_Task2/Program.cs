@@ -9,7 +9,6 @@ namespace hm_06_Task2
             Console.WriteLine("Введите строку");
             string words = Console.ReadLine();
             Console.WriteLine($"Исходная строка: {words}");
-            //SortArray(words);
             Console.Write("delete long word: ");
             DeleteLongWord(words);
             Console.Write("replace long and short word: ");
