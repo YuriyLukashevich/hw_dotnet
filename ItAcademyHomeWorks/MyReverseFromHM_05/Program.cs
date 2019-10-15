@@ -7,6 +7,19 @@ namespace MyReverseFromHM_05
         static void Main(string[] args)
         {
             Random num = new Random();
+            //with 10 elements
+            Int64[] array = new Int64[10];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = num.Next(0, 50);
+            }
+            Console.WriteLine("Проверка, как обращает массив в 10 элементов");
+            Console.Write($"до реверса: {String.Join(" ", array)}\n");
+            Console.WriteLine("With 10 elements");
+            Program.Reverse(array);
+            Console.Write($"после Reverse: {String.Join(" ", array)}\n");
+            Program.MyReverse(array);
+            Console.Write($"после MyReverse: {String.Join(" ", array)}\n");
             //with 1000
             Int64[] array1 = new Int64[1000];
             for (int i = 0; i < array1.Length; i++)
