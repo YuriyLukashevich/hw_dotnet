@@ -11,7 +11,7 @@ namespace AssemblyTwo
         //Доступ к этому классу будет только в этой сборке
     {
         public int maxSpeedPublic;
-        private int maxSpeedPrivate; //нигде не будет доступно, кроме этого класса
+        private int _maxSpeedPrivate; //нигде не будет доступно, кроме этого класса
         protected int maxSpeedProtected;
         internal void StartEngineInternal()
         {
