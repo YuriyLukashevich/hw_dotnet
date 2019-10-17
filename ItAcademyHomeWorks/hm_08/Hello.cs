@@ -14,7 +14,27 @@ namespace hm_08
         public string patronymic;
         public string lastName;
         public string NumberFlight { get; set; }
-        
+
+        public Hello()
+        {
+
+        }
+
+        public Hello(string firstName, string patronymic, string lastName)
+        {
+            this.firstName = firstName;
+            this.patronymic = patronymic;
+            this.lastName = lastName;
+        }
+
+        public Hello(string firstName, string patronymic, string lastName, string numberFlight)
+        {
+            this.firstName = firstName;
+            this.patronymic = patronymic;
+            this.lastName = lastName;
+            this.NumberFlight = numberFlight;
+        }
+
         public void HelloMan()
         {
             TimeSpan now = DateTime.Now.TimeOfDay;
