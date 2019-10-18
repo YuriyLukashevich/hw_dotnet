@@ -6,8 +6,8 @@ namespace hm_08
 {
     class Check_in : Hello
     {
-        protected const string _yes = "да";
-        protected const string _no = "нет";
+        protected const string Yes = "да";
+        protected const string No = "нет";
         protected readonly string dangerBaggage = "наркоти";
         protected readonly string baggage = "наркоти одежда кружка деньги";
         protected readonly string handLuggage = "ноутбук книжка";
@@ -23,11 +23,11 @@ namespace hm_08
                 var variant = Console.ReadLine();
                 switch (variant)
                 {
-                    case _yes:
+                    case Yes:
                         result = true;
                         Console.WriteLine($"{firstName} {patronymic}, ваш паспорт и билет приняты, спасибо.");
                         break;
-                    case _no:
+                    case No:
                         result = true;
                         Console.WriteLine($"{firstName} {patronymic}, дайте свой паспорт пожалуйста.");
                         Console.WriteLine("Спасибо, вы успешно зарегестрированы.");

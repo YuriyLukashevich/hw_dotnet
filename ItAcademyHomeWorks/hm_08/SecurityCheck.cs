@@ -14,7 +14,7 @@ namespace hm_08
             Registration();
             Console.WriteLine($"{firstName} {patronymic}, у вас есть ручная кладь?");
             answer = Console.ReadLine();
-            if (answer == _yes)
+            if (answer == Yes)
             {
                 bag ++;
                 string[] handLuggages = handLuggage.Split(' ');
@@ -29,7 +29,7 @@ namespace hm_08
             }               
             Console.WriteLine($"{firstName}, у вас есть багаж?");            
             answer = Console.ReadLine();
-            if (answer == _yes)
+            if (answer == Yes)
             {
                 bag++;
                 string[] baggages = baggage.Split(' ');

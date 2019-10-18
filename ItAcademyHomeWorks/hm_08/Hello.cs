@@ -6,10 +6,10 @@ namespace hm_08
 {
     class Hello
     {
-        private const byte nineAM = 9;
-        private const byte twelveAM = 12;
-        private const byte fifteenPM = 15;
-        private const byte twentytwoPM = 22;
+        private const byte NineAM = 9;
+        private const byte TwelveAM = 12;
+        private const byte FifteenPM = 15;
+        private const byte TwentytwoPM = 22;
         public string firstName;
         public string patronymic;
         public string lastName;
@@ -40,15 +40,15 @@ namespace hm_08
             TimeSpan now = DateTime.Now.TimeOfDay;
             Console.WriteLine(now);
             int time = now.Hours;
-            if (time >= nineAM & time < twelveAM)
+            if (time >= NineAM & time < TwelveAM)
             {
                 Console.Write("Доброе утро. ");
             }
-            else if (time >= twelveAM & time < fifteenPM)
+            else if (time >= TwelveAM & time < FifteenPM)
             {
                 Console.Write("Добрый день. ");
             }
-            else if (time >= fifteenPM & time < twentytwoPM)
+            else if (time >= FifteenPM & time < TwentytwoPM)
             {
                 Console.Write("Добрый вечер. ");
             }
