@@ -12,7 +12,6 @@ namespace hm_09_task1
     {
         private static ILog log = LogManager.GetLogger("LOGGER");
 
-
         public static ILog Log
         {
             get { return log; }
