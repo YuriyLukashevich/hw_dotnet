@@ -5,7 +5,7 @@ using System.Text;
 
 namespace hm_09_task1
 {
-    class MotorcycleRepos
+    class MotorcycleRepos : IMotorcycleRepos
     {        
         public static List<Motorcycle> motorcycles = new List<Motorcycle>();
         private static int _id = 1;
