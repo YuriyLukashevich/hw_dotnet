@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMotorcycleRepos.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Moto.cs" />
     <Compile Include="Motorcycle.cs" />
