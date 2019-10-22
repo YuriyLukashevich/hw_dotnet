@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logger.cs" />
+    <Compile Include="Moto.cs" />
     <Compile Include="Motorcycle.cs" />
     <Compile Include="MotorcycleRepos.cs" />
     <Compile Include="Program.cs" />

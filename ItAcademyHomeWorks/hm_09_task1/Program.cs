@@ -12,15 +12,15 @@ namespace hm_09_task1
         {
             Logger.InitLogger();
             MotorcycleRepos motorcycleRepos = new MotorcycleRepos();
-            Motorcycle moto = new Motorcycle("Java", 1985, 120, "TLJ 638");
-            Motorcycle moto1 = new Motorcycle("Suzuki", 1999, 250, "JS1VP53A3");
+            Motorcycle moto = new Motorcycle(Moto.Minsk, 1985, 120, "TLJ 638");
+            Motorcycle moto1 = new Motorcycle(Moto.Suzuki, 1999, 250, "JS1VP53A3");
             motorcycleRepos.AddMotorcycle(moto);
             motorcycleRepos.AddMotorcycle(moto1);
             motorcycleRepos.GetMotorcycle();
             //get by id
             motorcycleRepos.GetMotorcycleByID(1);
             //update
-            moto1.Name = "BMW";
+            moto1.Name = Convert.ToString(Moto.Yamaha);
             moto1.VinNumber = "WBABT31060L";
             motorcycleRepos.UpdateMotorcycle(moto1);
             motorcycleRepos.GetMotorcycle();

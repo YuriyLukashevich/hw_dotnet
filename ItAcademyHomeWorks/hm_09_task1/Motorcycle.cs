@@ -12,9 +12,9 @@ namespace hm_09_task1
         public int MaxSpeed { get; set; }
         public string VinNumber { get; set; }
 
-        public Motorcycle(string name, int year, int maxSpeed, string vinNumber)
+        public Motorcycle(Moto name, int year, int maxSpeed, string vinNumber)
         {
-            Name = name;
+            Name = Convert.ToString(name);
             Year = year;
             MaxSpeed = maxSpeed;
             VinNumber = vinNumber;
