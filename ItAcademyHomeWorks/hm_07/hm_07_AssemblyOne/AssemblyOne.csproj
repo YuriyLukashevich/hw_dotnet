@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AssemblyTwo\AssemblyTwo.csproj" />
+    <ProjectReference Include="..\hm_07_AssemblyTwo\AssemblyTwo.csproj" />
   </ItemGroup>
 
 </Project>
