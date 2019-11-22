@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{424BF1A6-95E8-4D3C-8438-D598696F72EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_02_Task1", "Task1\hm_02_Task1.csproj", "{424BF1A6-95E8-4D3C-8438-D598696F72EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_02_Task2", "Task2\hm_02_Task2.csproj", "{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_04_Task1", "hm_04_Task1\hm_04_Task1.csproj", "{C17A85E6-FD0A-4935-B260-BBF42603F6BF}"
 EndProject
@@ -46,14 +46,24 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_06_Task3_Optional", "hm_06_Task3_Optional\hm_06_Task3_Optional.csproj", "{41471E8B-CA0D-4700-B190-1B6B691AA5E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_09_task1", "hm_09_task1\hm_09_task1.csproj", "{0D7F3A11-759C-4579-903C-4666F1D1D644}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_08", "hm_08\hm_08.csproj", "{4F3EFB74-2397-4EC8-9BF2-DA3DECD1957A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_08", "hm_08\hm_08.csproj", "{4F3EFB74-2397-4EC8-9BF2-DA3DECD1957A}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hm_07", "hm_07", "{B7D3E77E-AC2B-4795-B6D9-0B8D71682B5F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyOne", "AssemblyOne\AssemblyOne.csproj", "{007C0A57-872B-487F-A361-BFF7BDD83ECF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTwo", "AssemblyTwo\AssemblyTwo.csproj", "{8D08ACA2-8196-4C5A-92C7-CB95090653C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyReverseFromHM_05", "MyReverseFromHM_05\MyReverseFromHM_05.csproj", "{7DDF3DB2-31D9-4A14-9FC7-71124DE861BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyReverseFromHM_05", "MyReverseFromHM_05\MyReverseFromHM_05.csproj", "{7DDF3DB2-31D9-4A14-9FC7-71124DE861BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hm_02", "hm_02", "{54F912D2-A6C4-4416-BD71-C96A777639FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hm_01", "hm_01", "{8BC3704F-E4DD-483B-B74E-72B70429D323}"
+	ProjectSection(SolutionItems) = preProject
+		hm_01_block diagram.pdf = hm_01_block diagram.pdf
+		hm_01_verbal descpription of the algorithm.pdf = hm_01_verbal descpription of the algorithm.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +71,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{424BF1A6-95E8-4D3C-8438-D598696F72EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424BF1A6-95E8-4D3C-8438-D598696F72EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424BF1A6-95E8-4D3C-8438-D598696F72EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424BF1A6-95E8-4D3C-8438-D598696F72EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CEAE41-3EFF-4843-8A7F-692B69983C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C17A85E6-FD0A-4935-B260-BBF42603F6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C17A85E6-FD0A-4935-B260-BBF42603F6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17A85E6-FD0A-4935-B260-BBF42603F6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -146,6 +164,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{424BF1A6-95E8-4D3C-8438-D598696F72EA} = {54F912D2-A6C4-4416-BD71-C96A777639FD}
+		{C9CEAE41-3EFF-4843-8A7F-692B69983C5C} = {54F912D2-A6C4-4416-BD71-C96A777639FD}
 		{C17A85E6-FD0A-4935-B260-BBF42603F6BF} = {0DD6637F-AF2A-410B-8B3D-1D15ED8E814A}
 		{294BC7D8-5B66-4BE2-B259-452FFF20FCFA} = {64B58FFF-5DB8-4D9C-B5D7-735400F5A045}
 		{727E03D3-270E-4385-9EA5-12CBD32374F9} = {0DD6637F-AF2A-410B-8B3D-1D15ED8E814A}
